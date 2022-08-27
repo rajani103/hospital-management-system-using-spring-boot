@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY target/demo-0.0.1.jar /
+COPY HospitalManagementSystem/target/ /
 WORKDIR /
 CMD ["java", "-jar", "demo-0.0.1.jar"]
